@@ -1,10 +1,12 @@
-NAME = ex00
+NAME = ex03
 CXX = c++
 CXXFLAGS = -Wall -Werror -Wextra
 CXXFLAGS += -std=c++98
 
 SRC =	main.cpp \
-		Fixed.cpp
+		Fixed.cpp \
+		Point.cpp \
+		bsp.cpp
 
 OBJ = $(SRC:.cpp=.o)
 

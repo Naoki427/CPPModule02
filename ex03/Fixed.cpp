@@ -19,7 +19,6 @@ Fixed::Fixed(const float num)
 {
 	this->fixed_point_num = roundf(num *(1 << this->bit));
 }
-
 Fixed::~Fixed(){}
 
 Fixed& Fixed::operator = (const Fixed & origin)
