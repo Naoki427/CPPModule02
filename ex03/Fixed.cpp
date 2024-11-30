@@ -7,7 +7,7 @@ Fixed::Fixed()
 
 Fixed::Fixed(const Fixed & origin)
 {
-	this->fixed_point_num = origin.getRawBits();
+	*this = origin;
 }
 
 Fixed::Fixed(const int num)

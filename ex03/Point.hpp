@@ -11,6 +11,7 @@ public:
 	Point( const float num_x, const float num_y );
 	Point(const Point & origin);
 	~Point();
+	Point& operator= (const Point &origin);
 	Fixed getRawBitsX() const;
 	Fixed getRawBitsY() const;
 };
